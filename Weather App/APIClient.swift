@@ -14,7 +14,7 @@ class APIClients {
     
     let baseURL = "https://api.openweathermap.org/data/2.5/weather"
     
-    let apiKey = "615537446a330b2385099da4ca075804"
+    let apiKey = ""
     
     func getWeatherDataURL(Lat: String,Lon:String) -> String {
         return "\(baseURL)?lat=\(Lat)&lon=\(Lon)&APPID=\(apiKey)"
